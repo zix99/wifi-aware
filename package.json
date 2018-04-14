@@ -1,0 +1,27 @@
+{
+  "name": "wifi-aware",
+  "version": "1.0.0",
+  "description": "Right now, this is just prototyping-stage.  The intention is simple software to run on a small device to monitor local networks and association attempts of wifi radio signals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zix99/wifi-aware.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zix99/wifi-aware/issues"
+  },
+  "homepage": "https://github.com/zix99/wifi-aware#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^2.3.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0",
+    "pcap2": "^3.0.4",
+    "yargs": "^11.0.0"
+  }
+}
